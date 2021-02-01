@@ -1,0 +1,588 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* I think the real site uses javascript to toggle navs */
+
+.hidden, .hidden-logo-svg {
+  overflow: hidden;
+  height: 0;
+}
+
+#hidden-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+  margin-left: 101px;
+}
+
+#left-hidden-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+#right-hidden-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+#left-hidden-nav li {
+  margin-right: 5px;
+  color: silver;
+  cursor: pointer;
+}
+
+#right-hidden-nav li {
+  margin-right: 5px;
+  color: silver;
+  cursor: pointer;
+}
+
+#left-hidden-bottom-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 101px;
+  position: absolute;
+  top: 25px;
+  height: 25px;
+}
+
+#left-hidden-bottom-nav li {
+  margin-right: 5px;
+  color: silver;
+  cursor: pointer;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0;
+  position: fixed;
+  top: 100;
+  z-index: 99;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+#tnw-logo {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-nav img {
+  margin: 10px;
+}
+
+#search-logo {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+#hamburger {
+  text-decoration-color: orange;
+  cursor: pointer;
+}
+
+#clock, #share {
+  margin: 5px 5px 0 5px;
+  filter: invert(100%) sepia(81%) saturate(2%) hue-rotate(126deg) brightness(107%) contrast(101%);
+}
+
+#banner {
+  background-color: #ffdd33;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  position: fixed;
+  top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.article-flex {
+  display: flex;
+  align-items: center;
+}
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  cursor: pointer;
+}
+
+#flex-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#flex-3 .article-container {
+  background-color: rgb(112,128,144);
+  color: white;
+  width: 484px;
+  height: 150px;
+  margin: 2px;
+  text-align: left;
+}
+
+.article-text-container {
+  margin-left: 10px;
+}
+
+.latest-news-container .article-container {
+  width: 484px;
+  height: 100px;
+  background-color: silver;
+  margin: 3px;
+}
+
+#latest-funding-round-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.orange {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.orange:hover {
+  color: black;
+}
+
+.orange-2 {
+  font-size: 18px;
+  color: #f42;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.orange-2:hover {
+  color: black;
+}
+
+.arrow {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.funding-article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  margin: 20px;
+}
+
+.funding-container {
+  display: flex;
+  margin: 0;
+  background-color: salmon;
+  padding: 10px;
+}
+
+.funding-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-logo {
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+  background-color: gray;
+}
+
+.section-container-template {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-image {
+  width: 100%;
+  height: 340px;
+  margin: 10px 0px 10px 0px;
+  background-color: blue;
+}
+
+.section-right-image {
+  width: 72px;
+  height: 72px;
+  margin-top: -5px;
+  background-color: lightblue;
+}
+
+.section-article-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  align-items: left;
+}
+
+.section-margin {
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.section-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.section-list li::before {
+    content: "\2022";
+    color: salmon;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.smaller-font {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.bold-title {
+  font-weight: 700;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+#deal-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+#nav-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+  color: white;
+  height: 160px;
+  width: 100%;
+  padding: 40px;
+}
+
+
+#nav-footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+#nav-footer-icons li {
+  background-color: gray;
+  border-radius: 50%;
+  color: white;
+  margin: 10px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#nav-footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: silver;
+}
+
+#nav-footer-text li {
+  margin: 5px;
+  cursor: pointer;
+}
+
+#accessibility-fixed-footer {
+  text-align: center;
+  background-color: #146FF8;
+  color: white;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 90%;
+  cursor: pointer;
+  /*border-radius: 50%; */
+  padding: 5px;
+}
+
+#accessibility {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%) sepia(81%) saturate(2%) hue-rotate(126deg) brightness(107%) contrast(101%);
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 0;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #tnw-logo {
+    height: 50px;
+    width: 100px;
+  }
+
+  #hidden-nav {
+    display: flex;
+    background-color: #131313;
+    left: -1px;
+    top: 0px;
+    height: 25px;
+    position: fixed;
+    margin-right: 15px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99;
+  }
+
+  #hidden-bottom-nav {
+    display: flex;
+    position: fixed;
+    background-color: white;
+  }
+
+  #left-hidden-nav {
+    display: flex;
+    list-style-type: none;
+    height: 25px;
+  }
+
+  #right-hidden-nav {
+    display: flex;
+    list-style-type: none;
+    height: 25px;
+    font-size: 16px;
+    padding-right: 105px;
+  }
+
+  #left-hidden-nav li {
+    margin-right: 5px;
+    color: silver;
+    list-style-type: none;
+  }
+
+  #left-hidden-nav li:first {
+    color: white;
+  }
+
+  #right-hidden-nav li {
+    margin-right: 5px;
+    color: silver;
+    list-style-type: none;
+  }
+
+  #left-hidden-bottom-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 99px;
+    position: absolute;
+    top: 25px;
+    height: 25px;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+  }
+
+  #left-hidden-bottom-nav li {
+    margin-right: 5px;
+    color: silver;
+    list-style-type: none;
+  }
+
+  #right-nav {
+    margin-top: 20px;
+  }
+
+  /* Double navs end */
+
+  #flex-3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+  }
+
+  #flex-3 .article-container {
+    background-color: rgb(112,128,144);
+    color: white;
+    width: 399px;
+    height: 150px;
+    margin: 2px;
+    text-align: left;
+  }
+
+  .article-text-container {
+    margin-left: 10px;
+  }
+
+  #flex-3 .article-container-grouping {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #flex-3 .first-item {
+    width: 100%;
+    height: 100%;
+  }
+
+  .latest-news-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+
+  .latest-news-container .article-container {
+    width: 250px;
+    height: 200px;
+  }
+
+  #latest-funding-round-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-left: 0px;
+  }
+
+  #latest-funding-round-container .funding-article {
+    height: 100%;
+    width: 100%;
+  }
+
+  #section-container-templates-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    #tnw-logo {
+      height: 0;
+      overflow: hidden;
+    }
+
+    #hidden-nav {
+      display: flex;
+      background-color: #131313;
+      left: -100px;
+      top: 0px;
+      height: 25px;
+      position: fixed;
+      margin-right: 15px;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 99;
+    }
+
+    #left-hidden-bottom-nav {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 25px;
+      left: -99px;
+      height: 25px;
+      position: fixed;
+      background-color: white;
+      z-index: 999;
+    }
+
+    .hidden-logo-svg {
+      height: 400px;
+      width: 400px;
+    }
+
+    #flex-3 .article-container-grouping .article-container {
+      background-color: rgb(112,128,144);
+      color: white;
+      width: 450px;
+      height: 300px;
+      margin: 2px;
+      text-align: left;
+    }
+
+    .latest-news-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+    }
+
+    #section-container-templates-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5px;
+    }
+
+    #banner {
+      background-color: #ffdd33;
+      width: 100%;
+      height: 50px;
+      padding: 10px 10px;
+      position: fixed;
+      top: 50px;
+      display: flex;
+      align-items: center;
+    }
+
+    #right-hidden-nav {
+      display: flex;
+      list-style-type: none;
+      height: 25px;
+      font-size: 16px;
+      padding-right: 25px;
+    }
+
+  }
+
+}
