@@ -3,6 +3,8 @@ Odin Project HTML/CSS Building with Responsive Design exercise
 
 [Odin Project](https://theodinproject.com/courses/html-and-css/lessons/building-with-responsive-design)
 
+[The Next Web](https://www.thenextweb.com)
+
 ![Mobile](mobile-screenshot.png)
 
 ![Middle](middle-screenshot.png)
