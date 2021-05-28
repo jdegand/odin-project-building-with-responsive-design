@@ -5,6 +5,8 @@ Odin Project HTML/CSS Building with Responsive Design exercise
 
 [The Next Web](https://www.thenextweb.com)
 
+[Live Link](https://jdegand.github.io/odin-project-building-with-responsive-design/)
+
 ![Mobile](mobile-screenshot.png)
 
 ![Middle](middle-screenshot.png)
